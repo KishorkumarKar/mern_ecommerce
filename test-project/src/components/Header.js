@@ -6,12 +6,13 @@ export class Header extends Component {
         home: "/",
         signup: "/signup",
         login: "/login",
+        dashboard: "/dashboard",
     };
     logout=()=>{
-        console.log(11111)
         axios.get("/api/users/logout")
         .then(res=>{
-
+            //console.log(res.body.data);
+            //this.props.history.push("/");
         })
     }
     render() {
@@ -49,8 +50,10 @@ export class Header extends Component {
                                                 <span className="js-menu-toggle"></span>
                                                 <ul style={{ width: "120px" }}>
                                                     <li>
-                                                        <a href="dashboard.html"><i className="fas fa-user-circle u-s-m-r-6"></i>
-                                                            <span>Account</span></a>
+                                                        <Link to={this.url.dashboard}>
+                                                        <i className="fas fa-user-circle u-s-m-r-6"></i>
+                                                            <span>Account</span>
+                                                        </Link>
                                                     </li>
                                                     <li>
 

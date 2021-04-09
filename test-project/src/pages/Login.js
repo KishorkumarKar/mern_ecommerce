@@ -26,7 +26,14 @@ export class Signup extends Component {
             credentials: "same-origin"
         })
         .then(res=>{
-            console.log(res);
+            if(res.status===200){
+                localStorage.setItem('appCustomer', JSON.stringify(res.data));
+                this.props.history.push("/dashboard");
+            }
+        })
+        .catch(response=>{
+            console.log(response);
+
         })
     }
 
