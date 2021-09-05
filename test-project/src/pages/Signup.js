@@ -17,7 +17,10 @@ export class Signup extends Component {
     }
 
     customerAdd=data=>{
-
+        const headers = {
+            'Content-Type': 'application/json',
+            'Access-Control-Allow-Origin': '*'
+          }
         const login_axios = axios.create({
             withCredentials: true,
             headers: {
@@ -25,11 +28,11 @@ export class Signup extends Component {
             "Content-Type": "x-www-form-urlencoded"
             }
             });
-        //axios.post("/api/users/add",data,{headers: headers, withCredentials: true,})
-        login_axios.post("/api/users/add",data)
-        .then(res=>{
-            console.log(res);
-        })
+        axios.post("/api/users/add",data,{headers: headers, withCredentials: true,})
+        // login_axios.post("/api/users/add",data)
+        // .then(res=>{
+        //     console.log(res);
+        // })
     }
 
     async  handelSubmit(event){

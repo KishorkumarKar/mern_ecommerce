@@ -1,10 +1,11 @@
 //import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 import Homepage from "./pages/Homepage";
 import Signup from "./pages/Signup";
 import Login from "./pages/Login";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Dashboard from "./pages/Dashboard";
+import PrivateRoute from "./PrivateRoute";
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
           <Route exact path="/" component={Homepage} />
           <Route path="/login" component={Login} />
           <Route path="/signup" component={Signup} />
-          <Route path="/dashboard" component={Dashboard} />
+          {/* <Route path="/dashboard" component={Dashboard} /> */}
+          <PrivateRoute path="/dashboard" component={Dashboard} />
         </Switch>
       </BrowserRouter>
     </div>

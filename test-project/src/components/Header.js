@@ -3,7 +3,27 @@ import { Link } from "react-router-dom";
 import ManageLink from "./Links/ManageLink";
 import AccountLink from "./Links/AccountLink";
 import axios from "axios";
+import loadjs from "loadjs";
 export class Header extends Component {
+  componentWillMount() {
+    //loadjs("../../public/assets/js/app.js", function () {});
+    //console.log(123);
+    loadjs(
+      [
+        "https://www.google-analytics.com/analytics.js",
+        "./assets/js/vendor.js",
+        "./assets/js/jquery.shopnav.js",
+        "./assets/js/app.js",
+      ],
+      {
+        success: function () {
+          /* foo.js and bar.js loaded in series */
+        },
+        async: false,
+      }
+    );
+  }
+
   url = {
     home: "/",
     signup: "/signup",
@@ -19,6 +39,12 @@ export class Header extends Component {
   render() {
     return (
       <div>
+        <script src="https://www.google-analytics.com/analytics.js" />
+        <script
+          type="text/javascript"
+          src="../../public/assets/js/jquery.shopnav.js"
+        />
+        <script type="text/javascript" src="../../public/assets/js/app.js" />
         <header className="header--style-1">
           {/* <!--====== Nav 1 ======--> */}
           <nav className="primary-nav primary-nav-wrapper--border">

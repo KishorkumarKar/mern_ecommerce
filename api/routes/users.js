@@ -26,7 +26,7 @@ router.post("/login", (req, res, next) => {
 
   console.log("login------------")
   console.log(req.isAuthenticated());
-
+  //console.log(`req.session.passport: ${req.session.passport.user}`);
     passport.authenticate('local-login', function(err, user, info) {
 
       console.log('Login route', req.isAuthenticated(), req.session);
@@ -61,12 +61,12 @@ router.post("/login", (req, res, next) => {
 })
 
 //Add user
-router.post("/add",ensureAuthenticated, function (req, res, next) {
+router.post("/add", function (req, res, next) {
   const { email, password, last_name, first_name } = req.body;
   console.log("======sdaddd===");
   console.log(req.session);
   res.send("api post test");
-  /* User.findOne({ email: email })
+  User.findOne({ email: email })
     .then(user => {
       if (user) {
       } else {
@@ -89,6 +89,6 @@ router.post("/add",ensureAuthenticated, function (req, res, next) {
           });
         });
       }
-    }); */
+    });
 })
 module.exports = router;
