@@ -1,0 +1,13 @@
+[{
+  "_id": {
+    "$oid": "60c897e070a3a6162064ddc5"
+  },
+  "first_name": "Kinsuk.",
+  "last_name": "Dutta",
+  "email": "rhuangxxxxXXX@acs.org",
+  "password": "$2a$10$01GmdZvVsSLsZR21AGv5e.u8UdTU7XoWi8XBwp6VeJjLOS58abGGC",
+  "creates_at": {
+    "$date": "2021-06-15T12:06:56.041Z"
+  },
+  "__v": 0
+}]

@@ -1,0 +1,127 @@
+[{
+  "_id": {
+    "$oid": "6134c1c0b98b409e3065bc72"
+  },
+  "name": "Nikon Camera 4k Lens Zoom Pro",
+  "sku": "00001",
+  "discription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+  "review": 5,
+  "price": 6.9,
+  "stock": 150,
+  "policy": [
+    "Buyer Protection.",
+    "Full Refund if you don't receive your order.",
+    "eturns accepted if product not as described."
+  ],
+  "image": [
+    "product-d-1.jpg",
+    "product-d-1.jpg",
+    "product-d-1.jpg",
+    "product-d-1.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "6134c1e0b98b409e3065cdbd"
+  },
+  "name": "Red Wireless Headphone",
+  "sku": "00002",
+  "discription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+  "review": 5,
+  "price": 7,
+  "stock": 150,
+  "policy": [
+    "Buyer Protection.",
+    "Full Refund if you don't receive your order.",
+    "eturns accepted if product not as described."
+  ],
+  "image": [
+    "product-d-1.jpg",
+    "product-d-1.jpg",
+    "product-d-1.jpg",
+    "product-d-1.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "6134c1e0b98b409e3065cdbe"
+  },
+  "name": "Yellow Wireless Headphone",
+  "sku": "00003",
+  "discription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+  "review": 5,
+  "price": 5,
+  "stock": 150,
+  "policy": [
+    "Buyer Protection.",
+    "Full Refund if you don't receive your order.",
+    "eturns accepted if product not as described."
+  ],
+  "image": [
+    "product-d-1.jpg",
+    "product-d-1.jpg",
+    "product-d-1.jpg",
+    "product-d-1.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "6134c2a0b98b409e30663399"
+  },
+  "name": "Hover Skateboard Scooter",
+  "sku": "00004",
+  "discription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+  "review": 5,
+  "price": 5.9,
+  "stock": 150,
+  "policy": [
+    "Buyer Protection.",
+    "Full Refund if you don't receive your order.",
+    "eturns accepted if product not as described."
+  ],
+  "image": [
+    "product-d-1.jpg",
+    "product-d-1.jpg",
+    "product-d-1.jpg",
+    "product-d-1.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "6134c2a0b98b409e3066339a"
+  },
+  "name": "Hover Red Skateboard Scooter",
+  "sku": "00005",
+  "discription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+  "review": 3,
+  "price": 7,
+  "stock": 150,
+  "policy": [
+    "Buyer Protection.",
+    "Full Refund if you don't receive your order.",
+    "eturns accepted if product not as described."
+  ],
+  "image": [
+    "product-d-1.jpg",
+    "product-d-1.jpg",
+    "product-d-1.jpg",
+    "product-d-1.jpg"
+  ]
+},{
+  "_id": {
+    "$oid": "6134c2a0b98b409e3066339b"
+  },
+  "name": "Canon DSLR Camera 4k",
+  "sku": "00006",
+  "discription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+  "review": 2,
+  "price": 8,
+  "stock": 150,
+  "policy": [
+    "Buyer Protection.",
+    "Full Refund if you don't receive your order.",
+    "eturns accepted if product not as described."
+  ],
+  "image": [
+    "product-d-1.jpg",
+    "product-d-1.jpg",
+    "product-d-1.jpg",
+    "product-d-1.jpg"
+  ]
+}]
